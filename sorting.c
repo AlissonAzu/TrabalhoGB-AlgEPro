@@ -263,6 +263,38 @@ int main(void) {
     fprintf(f, "| Merge Sort | O(n log n) | O(n log n) | O(n log n) | O(n) |\n");
     fprintf(f, "| Quick Sort | O(n log n) | O(n log n) | O(n2) | O(log n) |\n\n");
 
+    fprintf(f, "A notacao O descreve como o tempo de execucao cresce conforme o tamanho do array aumenta. ");
+    fprintf(f, "O(n2) significa que dobrar o array quadruplica o tempo, e e exatamente isso que se observa ");
+    fprintf(f, "nas tabelas para Bubble Sort, Insertion Sort e Selection Sort em arrays grandes. ");
+    fprintf(f, "Ja O(n log n) cresce muito mais devagar, o que explica por que Heap Sort e Merge Sort ");
+    fprintf(f, "se mantem rapidos mesmo para n=65536.\n\n");
+
+    fprintf(f, "## Observacoes\n\n");
+
+    fprintf(f, "**Cenario crescente:** o Insertion Sort se destaca por ser o mais rapido entre os algoritmos simples, ");
+    fprintf(f, "pois quando o array ja esta ordenado ele apenas percorre os elementos sem fazer trocas. ");
+    fprintf(f, "O Bubble Sort tambem se beneficia desse cenario, mas ainda e muito mais lento que os algoritmos O(n log n). ");
+    fprintf(f, "O Quick Sort apresenta desempenho pior nesse cenario com pivos mal escolhidos, porem a implementacao ");
+    fprintf(f, "com mediana de tres ameniza esse problema.\n\n");
+
+    fprintf(f, "**Cenario decrescente:** e o pior caso para Bubble Sort e Insertion Sort, que precisam mover cada elemento ");
+    fprintf(f, "ate o inicio do array a cada passo. O Bubble Sort chega a ser consideravelmente mais lento nesse cenario ");
+    fprintf(f, "comparado ao crescente. Heap Sort e Merge Sort nao sofrem variacao significativa pois sua complexidade ");
+    fprintf(f, "e O(n log n) independente da entrada.\n\n");
+
+    fprintf(f, "**Cenario aleatorio sem repeticao:** representa o caso medio para a maioria dos algoritmos. ");
+    fprintf(f, "O Quick Sort tende a ser o mais rapido na pratica por ter constantes menores que o Merge Sort, ");
+    fprintf(f, "mesmo ambos sendo O(n log n). O Shell Sort surpreende positivamente para tamanhos intermediarios. ");
+    fprintf(f, "Os algoritmos O(n2) ja mostram diferenca grande de tempo em relacao aos demais a partir de n=1024.\n\n");
+
+    fprintf(f, "**Cenario aleatorio com repeticao:** o comportamento e muito semelhante ao aleatorio sem repeticao. ");
+    fprintf(f, "Os valores repetidos nao causam impacto significativo nos algoritmos O(n log n). ");
+    fprintf(f, "Para os algoritmos O(n2) os tempos ficam proximos ao cenario aleatorio, sem piora expressiva.\n\n");
+
+    fprintf(f, "De forma geral, para arrays pequenos ate 512 elementos a diferenca entre os algoritmos e pequena ");
+    fprintf(f, "e qualquer um atende bem. A partir dai os algoritmos O(n2) ficam cada vez mais inviáveis, ");
+    fprintf(f, "e para uso real em arrays grandes o Merge Sort e o Quick Sort sao as melhores opcoes.\n");
+
     fclose(f);
     printf("resultados salvos em results.md\n");
     return 0;
