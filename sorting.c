@@ -229,10 +229,14 @@ int main(void) {
         printf("\n");
     }
 
-    FILE *f = fopen("results.md", "w");
+    FILE *f = fopen("README.md", "w");
     fprintf(f, "# Analise Comparativa dos Metodos de Ordenacao\n\n");
     fprintf(f, "Universidade do Vale do Rio dos Sinos - Ciencia da Computacao  \n");
     fprintf(f, "Trabalho 2 - Algoritmos e Estruturas de Dados\n\n");
+    fprintf(f, "## Integrantes\n\n");
+    fprintf(f, "- Alisson Grings\n");
+    fprintf(f, "- Henrique Freitas\n");
+    fprintf(f, "- Artur Costa Gernhardt\n\n");
     fprintf(f, "## Metodologia\n\n");
     fprintf(f, "Foram realizadas %d execucoes para cada combinacao de cenario, metodo e tamanho de array. ", RUNS);
     fprintf(f, "O tempo foi medido em nanossegundos. ");
@@ -296,6 +300,6 @@ int main(void) {
     fprintf(f, "e para uso real em arrays grandes o Merge Sort e o Quick Sort sao as melhores opcoes.\n");
 
     fclose(f);
-    printf("resultados salvos em results.md\n");
+    printf("resultados salvos em README.md\n");
     return 0;
 }
