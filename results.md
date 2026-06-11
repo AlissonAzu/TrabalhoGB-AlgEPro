@@ -11,16 +11,16 @@ Foram realizadas 10 execucoes para cada combinacao de cenario, metodo e tamanho 
 
 | n | Bubble Sort | Insertion Sort | Selection Sort | Heap Sort | Shell Sort | Merge Sort | Quick Sort |
 |---|-------------|----------------|----------------|-----------|------------|------------|------------|
-| 128 | 5588 | 200 | 5167 | 3011 | 900 | 56356 | 1367 |
-| 256 | 21267 | 300 | 19225 | 6878 | 2100 | 114588 | 3011 |
-| 512 | 82744 | 600 | 74538 | 15578 | 4600 | 231722 | 6011 |
-| 1024 | 320011 | 1100 | 297344 | 34000 | 10400 | 470100 | 25522 |
-| 2048 | 1271771 | 2100 | 1157663 | 140414 | 23100 | 950333 | 26000 |
-| 4096 | 5179663 | 4156 | 4964483 | 234717 | 50422 | 1908500 | 81578 |
-| 8192 | 20352089 | 8300 | 18643575 | 519844 | 109844 | 3862483 | 118622 |
-| 16384 | 82528900 | 16600 | 75214471 | 1061750 | 238889 | 8452814 | 258700 |
-| 32768 | 327354514 | 33156 | 296638538 | 2173833 | 514144 | 16568822 | 533850 |
-| 65536 | 1302665778 | 66344 | 1190550186 | 4608856 | 1124725 | 33235722 | 1129757 |
+| 128 | 7988 | 244 | 7443 | 4313 | 1333 | 78517 | 1400 |
+| 256 | 21013 | 300 | 19250 | 6725 | 2100 | 114211 | 3022 |
+| 512 | 81314 | 1100 | 77150 | 15478 | 4700 | 231389 | 11911 |
+| 1024 | 321122 | 1100 | 291988 | 68575 | 10400 | 479389 | 25122 |
+| 2048 | 1273289 | 4213 | 1157156 | 79163 | 23000 | 951988 | 25989 |
+| 4096 | 5083675 | 4144 | 4686088 | 232638 | 50378 | 1941244 | 56489 |
+| 8192 | 20311989 | 16650 | 19159375 | 495643 | 112600 | 3862500 | 118611 |
+| 16384 | 81548789 | 16633 | 74045914 | 1055544 | 238567 | 8257644 | 260189 |
+| 32768 | 325510867 | 33257 | 296369320 | 2182700 | 515222 | 16582700 | 534889 |
+| 65536 | 1311622900 | 66325 | 1189798757 | 4614333 | 1102278 | 33097100 | 1145325 |
 
 *Tempos em nanossegundos (media filtrada de 10 execucoes)*
 
@@ -28,16 +28,16 @@ Foram realizadas 10 execucoes para cada combinacao de cenario, metodo e tamanho 
 
 | n | Bubble Sort | Insertion Sort | Selection Sort | Heap Sort | Shell Sort | Merge Sort | Quick Sort |
 |---|-------------|----------------|----------------|-----------|------------|------------|------------|
-| 128 | 11820 | 6244 | 5875 | 2838 | 1311 | 56400 | 1878 |
-| 256 | 45000 | 24244 | 21822 | 5638 | 2989 | 123378 | 12656 |
-| 512 | 176356 | 95383 | 82550 | 12763 | 6811 | 242522 | 17143 |
-| 1024 | 704125 | 377675 | 321133 | 29663 | 15033 | 490288 | 49140 |
-| 2048 | 2798250 | 1507478 | 1279600 | 94511 | 33100 | 980300 | 47611 |
-| 4096 | 11176850 | 6015667 | 5044983 | 230767 | 72189 | 1976800 | 146811 |
-| 8192 | 44744863 | 24032511 | 20096967 | 498733 | 158367 | 3998956 | 252811 |
-| 16384 | 179797800 | 97724486 | 80863913 | 1063088 | 346344 | 8312622 | 471944 |
-| 32768 | 725827250 | 388590617 | 322311922 | 2441840 | 738656 | 16626171 | 1002244 |
-| 65536 | 2886758271 | 1561542386 | 1294289420 | 4638156 | 1581289 | 33016338 | 2161711 |
+| 128 | 23729 | 12633 | 11800 | 4688 | 2588 | 56511 | 1822 |
+| 256 | 44900 | 24211 | 21871 | 5625 | 3000 | 123044 | 12689 |
+| 512 | 176333 | 95163 | 82629 | 12750 | 6800 | 238675 | 16622 |
+| 1024 | 699944 | 377388 | 339000 | 29688 | 15033 | 515467 | 26256 |
+| 2048 | 2788738 | 1503978 | 1265156 | 71263 | 33033 | 979863 | 47500 |
+| 4096 | 11141322 | 6037689 | 5022600 | 239675 | 144471 | 1989000 | 146744 |
+| 8192 | 44867775 | 24067575 | 20094238 | 498756 | 199433 | 3998011 | 253478 |
+| 16384 | 180837775 | 96413844 | 80544986 | 1059900 | 345563 | 8267088 | 471325 |
+| 32768 | 721000086 | 388550500 | 324470250 | 2216033 | 759950 | 16641356 | 1001111 |
+| 65536 | 2887951463 | 1551839300 | 1291617471 | 4641933 | 1574800 | 33150775 | 2160189 |
 
 *Tempos em nanossegundos (media filtrada de 10 execucoes)*
 
@@ -45,16 +45,16 @@ Foram realizadas 10 execucoes para cada combinacao de cenario, metodo e tamanho 
 
 | n | Bubble Sort | Insertion Sort | Selection Sort | Heap Sort | Shell Sort | Merge Sort | Quick Sort |
 |---|-------------|----------------|----------------|-----------|------------|------------|------------|
-| 128 | 10344 | 6289 | 11044 | 2867 | 2167 | 66044 | 1744 |
-| 256 | 39156 | 13000 | 22367 | 6438 | 4056 | 125367 | 12044 |
-| 512 | 149422 | 53144 | 85922 | 14144 | 10744 | 250756 | 15078 |
-| 1024 | 582100 | 194413 | 322075 | 38163 | 31788 | 505338 | 21867 |
-| 2048 | 2282022 | 765367 | 1235867 | 85450 | 145083 | 1031517 | 43389 |
-| 4096 | 8811211 | 3024700 | 4809378 | 304750 | 367243 | 2097538 | 225283 |
-| 8192 | 34693944 | 12290444 | 18820050 | 660689 | 862413 | 4323300 | 433450 |
-| 16384 | 138937238 | 49753700 | 77056833 | 1456629 | 2135300 | 9032413 | 878100 |
-| 32768 | 569110150 | 202061957 | 298722789 | 3143900 | 5595778 | 18105875 | 1816378 |
-| 65536 | 2847599143 | 869382657 | 1193934500 | 6675914 | 12543544 | 36091267 | 3924025 |
+| 128 | 9288 | 3233 | 5700 | 2744 | 3467 | 115500 | 1789 |
+| 256 | 39933 | 13375 | 23025 | 6111 | 4511 | 125322 | 11922 |
+| 512 | 150544 | 51188 | 85038 | 14175 | 10113 | 250613 | 15011 |
+| 1024 | 593433 | 190457 | 324017 | 34113 | 28644 | 505875 | 42800 |
+| 2048 | 2252533 | 761833 | 1251643 | 116463 | 142467 | 1028888 | 81283 |
+| 4096 | 8823767 | 3059125 | 4942522 | 302350 | 356622 | 2087638 | 223583 |
+| 8192 | 34659033 | 12601113 | 18761086 | 668111 | 891689 | 4313944 | 438044 |
+| 16384 | 139888300 | 49936478 | 74626422 | 1450089 | 2231322 | 8959850 | 864500 |
+| 32768 | 570025686 | 202212489 | 297560156 | 3120322 | 6472622 | 18068489 | 1850025 |
+| 65536 | 2852238838 | 869751729 | 1189939500 | 6659589 | 14560267 | 36084789 | 3869838 |
 
 *Tempos em nanossegundos (media filtrada de 10 execucoes)*
 
@@ -62,16 +62,16 @@ Foram realizadas 10 execucoes para cada combinacao de cenario, metodo e tamanho 
 
 | n | Bubble Sort | Insertion Sort | Selection Sort | Heap Sort | Shell Sort | Merge Sort | Quick Sort |
 |---|-------------|----------------|----------------|-----------|------------|------------|------------|
-| 128 | 10011 | 3413 | 5750 | 2729 | 1822 | 57544 | 1722 |
-| 256 | 38211 | 13013 | 22844 | 6013 | 4244 | 124950 | 12311 |
-| 512 | 154211 | 52478 | 84513 | 14425 | 11522 | 248575 | 15467 |
-| 1024 | 592025 | 195122 | 321322 | 36300 | 30663 | 516578 | 23078 |
-| 2048 | 2267714 | 760688 | 1234300 | 109367 | 122850 | 1041180 | 41750 |
-| 4096 | 8818200 | 3057488 | 4785122 | 301629 | 346857 | 2104429 | 229843 |
-| 8192 | 34585225 | 12106622 | 18803433 | 672900 | 951480 | 4313417 | 445986 |
-| 16384 | 137206178 | 48411500 | 74795289 | 1465267 | 2212443 | 8926850 | 868622 |
-| 32768 | 561443100 | 193842533 | 297973278 | 3123300 | 5677678 | 18097700 | 1875656 |
-| 65536 | 2927052163 | 786004683 | 1201620675 | 6755314 | 13094456 | 36126450 | 3888389 |
+| 128 | 9775 | 3238 | 5625 | 2700 | 1633 | 57656 | 1711 |
+| 256 | 37167 | 13033 | 22778 | 5875 | 3844 | 124789 | 12278 |
+| 512 | 150867 | 105975 | 85986 | 14000 | 11267 | 245156 | 15500 |
+| 1024 | 586183 | 188444 | 320175 | 32200 | 67086 | 508867 | 23222 |
+| 2048 | 2259200 | 758488 | 1221763 | 106513 | 134900 | 1021488 | 37300 |
+| 4096 | 8790200 | 3041878 | 4873200 | 298113 | 374611 | 2180533 | 230125 |
+| 8192 | 34414511 | 12104811 | 18747256 | 660783 | 972389 | 4579143 | 433133 |
+| 16384 | 136914556 | 48309989 | 74495071 | 1503450 | 2345356 | 8943856 | 841614 |
+| 32768 | 565157100 | 194176550 | 299120983 | 3144963 | 5116167 | 18109838 | 1840867 |
+| 65536 | 2941262171 | 774734586 | 1198629414 | 6739038 | 16332888 | 36162063 | 3859767 |
 
 *Tempos em nanossegundos (media filtrada de 10 execucoes)*
 
@@ -87,3 +87,16 @@ Foram realizadas 10 execucoes para cada combinacao de cenario, metodo e tamanho 
 | Merge Sort | O(n log n) | O(n log n) | O(n log n) | O(n) |
 | Quick Sort | O(n log n) | O(n log n) | O(n2) | O(log n) |
 
+A notacao O descreve como o tempo de execucao cresce conforme o tamanho do array aumenta. O(n2) significa que dobrar o array quadruplica o tempo, e e exatamente isso que se observa nas tabelas para Bubble Sort, Insertion Sort e Selection Sort em arrays grandes. Ja O(n log n) cresce muito mais devagar, o que explica por que Heap Sort e Merge Sort se mantem rapidos mesmo para n=65536.
+
+## Observacoes
+
+**Cenario crescente:** o Insertion Sort se destaca por ser o mais rapido entre os algoritmos simples, pois quando o array ja esta ordenado ele apenas percorre os elementos sem fazer trocas. O Bubble Sort tambem se beneficia desse cenario, mas ainda e muito mais lento que os algoritmos O(n log n). O Quick Sort apresenta desempenho pior nesse cenario com pivos mal escolhidos, porem a implementacao com mediana de tres ameniza esse problema.
+
+**Cenario decrescente:** e o pior caso para Bubble Sort e Insertion Sort, que precisam mover cada elemento ate o inicio do array a cada passo. O Bubble Sort chega a ser consideravelmente mais lento nesse cenario comparado ao crescente. Heap Sort e Merge Sort nao sofrem variacao significativa pois sua complexidade e O(n log n) independente da entrada.
+
+**Cenario aleatorio sem repeticao:** representa o caso medio para a maioria dos algoritmos. O Quick Sort tende a ser o mais rapido na pratica por ter constantes menores que o Merge Sort, mesmo ambos sendo O(n log n). O Shell Sort surpreende positivamente para tamanhos intermediarios. Os algoritmos O(n2) ja mostram diferenca grande de tempo em relacao aos demais a partir de n=1024.
+
+**Cenario aleatorio com repeticao:** o comportamento e muito semelhante ao aleatorio sem repeticao. Os valores repetidos nao causam impacto significativo nos algoritmos O(n log n). Para os algoritmos O(n2) os tempos ficam proximos ao cenario aleatorio, sem piora expressiva.
+
+De forma geral, para arrays pequenos ate 512 elementos a diferenca entre os algoritmos e pequena e qualquer um atende bem. A partir dai os algoritmos O(n2) ficam cada vez mais inviáveis, e para uso real em arrays grandes o Merge Sort e o Quick Sort sao as melhores opcoes.
